@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/customstyle.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div class="header">
+       <h1>JAVASCRIPT FUNCTION SESSION</h1>
+      
+    </div>
+    <div class="content">
+        <h2 id="sum">EXAMPLE</h2>
+        <h2 id="product">This is the product </h2>
+     </div>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+
+        console.log("Hello World");
+        document.write("Hello World");
+
+        let a=1;
+        let b=3;
+        let c=a+b;
+        console.log(c);
+
+        const name="FLORELYN MORENO";
+        document.write("<br><br>");
+        document.write("My name is "+ name);
+     
+        document.write("<br><br>");
+        sumOfTwoNumbers(1,2,"sum");
+       
+        inputTwoNumbers();
+        let num2=10;
+        let num3=3;
+        let result=num2%num3;
+        console.log(result);
+        
+        let e=2;
+        let f=3;
+        let exponent=e**f;
+        document.write(exponent);
+        let age=prompt("Enter Your Age");
+        if(age>=18){
+            document.write("Adult");
+        }
+        else{
+            document.write("Not Adult");
+        }
+        for (let i=0;i<5;i++){
+            document.write(i);
+        }
+        //array with for loop
+        const fruits=['Apple','Banana','Orange','Mango'];
+        for(let q=0; q<fruits.length; q++)
+        {
+           document.write(fruits[i]);
+        }
+    </script>
+    
+</body>
+</html>
